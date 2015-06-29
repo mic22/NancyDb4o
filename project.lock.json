@@ -5,11 +5,61 @@
     "": [
       "Kestrel >= 1.0.0-*",
       "Microsoft.AspNet.Owin >= 1.0.0-*",
-      "Nancy >= 1.2.0"
+      "Nancy >= 1.2.0",
+      "db4o-devel >= 8.1.184.15492"
     ],
     "DNX,Version=v4.5.1": []
   },
   "libraries": {
+    "db4o-devel/8.1.184.15492": {
+      "serviceable": false,
+      "sha": "BM63/VePK85KCCu6BC+lngwCLTZLtN2MX7dtqaKCSoqu09t9UqdVW/+OR3J2g5bFBiz2XAjdQwCS11JJBKV8PA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net40/Db4objects.Db4o.Data.Services.dll",
+            "lib/net40/Db4objects.Db4o.Linq.dll",
+            "lib/net40/Db4objects.Db4o.dll",
+            "lib/net40/Mono.Reflection.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net40/Db4objects.Db4o.Data.Services.dll",
+            "lib/net40/Db4objects.Db4o.Linq.dll",
+            "lib/net40/Db4objects.Db4o.dll",
+            "lib/net40/Mono.Reflection.dll"
+          ]
+        }
+      },
+      "files": [
+        "db4o-devel.8.1.184.15492.nupkg",
+        "db4o-devel.8.1.184.15492.nupkg.sha512",
+        "db4o-devel.nuspec",
+        "lib/net35/Db4objects.Db4o.Data.Services.dll",
+        "lib/net35/Db4objects.Db4o.Linq.dll",
+        "lib/net35/Db4objects.Db4o.dll",
+        "lib/net35/Db4objects.Db4o.xml",
+        "lib/net35/Mono.Reflection.dll",
+        "lib/net40/Db4objects.Db4o.Data.Services.dll",
+        "lib/net40/Db4objects.Db4o.Linq.dll",
+        "lib/net40/Db4objects.Db4o.dll",
+        "lib/net40/Db4objects.Db4o.xml",
+        "lib/net40/Mono.Reflection.dll",
+        "lib/sl30/Cecil.FlowAnalysis.dll",
+        "lib/sl30/Cecil.FlowAnalysis.license.html",
+        "lib/sl30/Db4objects.Db4o.Linq.dll",
+        "lib/sl30/Db4objects.Db4o.dll",
+        "lib/sl30/Mono.Cecil.dll",
+        "lib/sl30/Mono.Cecil.license.html",
+        "lib/sl40/Cecil.FlowAnalysis.dll",
+        "lib/sl40/Cecil.FlowAnalysis.license.html",
+        "lib/sl40/Db4objects.Db4o.Linq.dll",
+        "lib/sl40/Db4objects.Db4o.dll",
+        "lib/sl40/Mono.Cecil.dll",
+        "lib/sl40/Mono.Cecil.license.html"
+      ]
+    },
     "Kestrel/1.0.0-beta4": {
       "serviceable": false,
       "sha": "8f2aCgtDh5ONWS7K2EYy23s3nnPvZS7rPimYHJ1DAvF7HG5GSmSC+SkKx6ZtBOjhU9agneWjDwj5jGjdPWfjsA==",
