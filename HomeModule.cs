@@ -1,6 +1,7 @@
 namespace NancyApplication
 {
     using Nancy;
+    using TreeDb4o;
     
     public class HomeModule : NancyModule
     {

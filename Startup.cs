@@ -2,7 +2,6 @@ namespace NancyApplication
 {
     using Microsoft.AspNet.Builder;
     using Nancy.Owin;
-    using Db4objects.Db4o;
  
     public class Startup
     {

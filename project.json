@@ -3,7 +3,7 @@
         "Kestrel": "1.0.0-*",
         "Microsoft.AspNet.Owin": "1.0.0-*",
         "Nancy": "1.2.0",
-	"db4o-devel":"8.1.184.15492"
+	    "db4o-devel": "8.1.184.15492"
     },
     "commands": {
         "kestrel": "Microsoft.AspNet.Hosting --server Kestrel --server.urls http://localhost:5003"
